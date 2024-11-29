@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: black;
+  color: rgb(241, 7, 7);
+}
+
+
+.navbar{
+  background: crimson; 
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+.logo a{
+  font-size: 3rem; 
+  font-weight: 800; 
+  color: white;
+}
+li{
+  list-style: none; 
+  display: inline-block;
+}
+li a{
+  color: white; 
+  font-size: 18px; 
+  margin-right: 25px;
+}
+
+ul a{
+  font-size: 2rem;
+  color: white;
+  margin-left: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.card-text, .card-title {
+  text-decoration: none;
+}
+
+.mySlides {display:none;}
+
+.card{
+  padding: 25px 5%;
+  gap: 20px;
+}
+
+span {
+  content: "\0E3F";
+}
+
+header{
+
+  background-color: transparent;
+  filter: drop-shadow(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.noPrint{ display: block; }
+.yesPrint{ display: block !important; }
+
+.inner-border {
+  padding: 20px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  display: inline-block;
+  max-width: 400px; 
+  width: auto; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* ให้ card อยู่ในหลายบรรทัดเมื่อพื้นที่ไม่พอ */
+  gap: 100px; /* เพิ่มระยะห่างระหว่างการ์ด */
+  justify-content: center; /* จัดให้อยู่ตรงกลาง */
+}
+
+.card {
+  width: 3000px; /* กำหนดขนาดของการ์ด */
+  height: 550px;
+  background-color: #f0f0f0;
+  border: 10px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container {
+  width: 300px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  transition: transform 0.10s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+

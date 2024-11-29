@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Product</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style1.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  </head>
+<body>
+<header>
+  <nav class="navbar">
+			<div class="logo"><a href="Home.htm">Mr.Computer</a> </div>
+			<ul>
+				<li><a href="index.htm">Home</a></li>
+        <li><a href="Product.html"class="active">Product</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Login.html">Login</a></li>
+			</ul>
+	</nav>
+</header>  
+<br>
+  <div class="w3-content w3-display-container">
+<center>
+  <img class="mySlides" src="Photo/4090.webp" width="500" height="500">
+  <img class="mySlides" src="Photo/7 5700g.webp" width="500" height="500">
+  <img class="mySlides" src="Photo/1tb ssd.avif" width="500" height="500">
+</center>
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  
+  <br>
+  <div class="row">
+    <div class="card-container">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mainboard</button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            
+            <a class="dropdown-item" href="CPU.html">CPU</a>
+            <a class="dropdown-item" href="GPU.html">GPU</a>
+            <a class="dropdown-item" href="Memory.html">Memory</a>
+            <a class="dropdown-item" href="SSD.html">HDD/SSD M.2</a>
+            <a class="dropdown-item" href="Product.html">ALL</a>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+    
+    <div class="row">
+      <div class="card-container">
+        <div class="card" style="width: 35rem;"><div class="image-container" type="button" data-target="#myModal" data-toggle="modal">
+          <img class="card-img-top" src="Product/ASROCK B450M.png" width="300" height="300"></div>
+          <div class="card-body">
+            <h5 style="color: black;">MAINBOARD (เมนบอร์ด) ASROCK B450M STEEL LEGEND (AMD SOCKET AM4 DDR4 MICRO-ATX)</h5>
+            <br><h3><span>&#3647;2,890</span></h3>
+            <a class="btn btn-danger" data-toggle="modal" data-target="#myModal5" >สั่งซื้อ</a>
+            <div class="modal fade" id="myModal5" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="color: red;">&times;</button>
+                  </div>
+                  <br><h4><center>ASROCK B450M STEEL LEGEND </center></h4><br>
+                  <div class="modal-body">
+                    <center><img src="Product/ASROCK B450M.png" width="300" height="300"></center>
+                    <br><center><h4>สินค้ายังคงเหลืออยู่ 10 ชิ้น</h4></center><br>
+                    <center><div class="noPrint"><h3>จำนวน&nbsp;<input type="number" id="quantity" name="quantity" min="1" max="10">ชิ้น</h3></div></center>
+                  </div>
+                  <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
+                   <a href="https://youtu.be/dQw4w9WgXcQ"><button type="button" class="btn btn-success">ยืนยัน</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 35rem;"><div class="image-container" type="button" data-target="#myModal" data-toggle="modal">
+          <img class="card-img-top" src="Product/A520M.webp" width="300" height="300"></div>
+          <div class="card-body">
+            <h5 class="card-title">MAINBOARD (เมนบอร์ด) GIGABYTE A520M K V2 (REV. 1.1) (SOCKET AM4 DDR4 MICRO-ATX)</h5>
+            <br><h3><span>&#3647;1,770</span></h3>
+            <a class="btn btn-danger" data-toggle="modal" data-target="#myModal10" >สั่งซื้อ</a>
+            <div class="modal fade" id="myModal10" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="color: red;">&times;</button>
+                  </div>
+                  <br><h4><center>GIGABYTE A520M K V2</center></h4><br>
+                  <div class="modal-body">
+                    <center><img src="Product/A520M.webp" width="300" height="300"></center>
+                    <br><center><h4>สินค้ายังคงเหลืออยู่ 2 ชิ้น</h4></center><br>
+                    <center><div class="noPrint"><h3>จำนวน&nbsp;<input type="number" id="quantity" name="quantity" min="1" max="2">ชิ้น</h3></div></center>
+                  </div>
+                  <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
+                   <a href="https://youtu.be/dQw4w9WgXcQ"><button type="button" class="btn btn-success">ยืนยัน</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="card" style="width: 35rem;"><div class="image-container" type="button" data-target="#myModal" data-toggle="modal">
+          <img class="card-img-top" src="Product/ASROCK B450M.png" width="300" height="300"></div>
+          <div class="card-body">
+            <h5 style="color: black;">MAINBOARD (เมนบอร์ด) ASROCK B450M STEEL LEGEND (AMD SOCKET AM4 DDR4 MICRO-ATX)</h5>
+            <br><h3><span>&#3647;2,890</span></h3>
+            <a class="btn btn-danger" data-toggle="modal" data-target="#myModal14" >สั่งซื้อ</a>
+            <div class="modal fade" id="myModal14" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="color: red;">&times;</button>
+                  </div>
+                  <br><h4><center>ASROCK B450M STEEL LEGEND</center></h4><br>
+                  <div class="modal-body">
+                    <center><img src="Product/ASROCK B450M.png" width="300" height="300"></center>
+                    <br><center><h4>สินค้ายังคงเหลืออยู่ 109 ชิ้น</h4></center><br>
+                    <center><div class="noPrint"><h3>จำนวน&nbsp;<input type="number" id="quantity" name="quantity" min="1" max="109">ชิ้น</h3></div></center>
+                  </div>
+                  <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
+                   <a href="https://youtu.be/dQw4w9WgXcQ"><button type="button" class="btn btn-success">ยืนยัน</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <br><br><br>
+
+
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
